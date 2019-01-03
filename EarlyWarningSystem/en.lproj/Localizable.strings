@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  EarlyWarningSystem
+
+  Created by Junqing li on 12/24/18.
+  Copyright © 2018 Junqing li. All rights reserved.
+*/
+"change_language" = "Change Language";
+"log_in" = "Log In";
+"email" = "Email";
+"password" = "Password";
+"forget_password" = "Forget Password?";
+"dont_have_account" = "Don't have an account?";
+"signup" = "Sign Up";
