@@ -18,7 +18,7 @@ import UserNotifications
 
 let primaryColor = UIColor(red: 210/255, green: 109/255, blue: 180/255, alpha: 1)
 let secondaryColor = UIColor(red: 52/255, green: 148/255, blue: 230/255, alpha: 1)
-let Appkey = "588f7833a3fc273c038b4849"
+let Appkey = ""
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -45,8 +45,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        Fabric.with([Crashlytics.self])
         
         //Google Service
-        GMSServices.provideAPIKey("AIzaSyDe7U8s0GazusymzJ752U3NPDn0KXHRYLk")
-        GMSPlacesClient.provideAPIKey("AIzaSyDe7U8s0GazusymzJ752U3NPDn0KXHRYLk")
+        GMSServices.provideAPIKey("")
+        GMSPlacesClient.provideAPIKey("")
         
         FirebaseApp.configure()
         
